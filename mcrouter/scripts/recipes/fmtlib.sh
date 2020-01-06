@@ -7,7 +7,7 @@
 source common.sh
 
 if [[ ! -d "$PKG_DIR/fmt" ]]; then
-  git clone --branch 6.1.0 https://github.com/fmtlib/fmt
+  git clone --branch 5.3.0 https://github.com/fmtlib/fmt
   cd "$PKG_DIR/fmt" || die "cd failed"
   mkdir "$PKG_DIR/fmt/build"
 fi
